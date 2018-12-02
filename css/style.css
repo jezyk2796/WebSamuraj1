@@ -11,11 +11,13 @@ html {
     font-size: 10px;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
+
+/* HEADER */
 
 header {
     background-color: #29a6dc;
@@ -71,4 +73,88 @@ header {
     display: block;
     height: 100%;
     margin: 0 0 0 20%;
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    .welcome p {
+        font-size: 5rem;
+    }
+
+    .welcome h2 {
+        font-size: 2.5rem;
+    }
+
+    .welcome h1 {
+        font-size: 2.5rem;
+    }
+
+    .welcome button {
+        width: 21.5rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+    .welcome p {
+        font-size: 8rem;
+    }
+
+    .welcome h2 {
+        font-size: 4.5rem;
+    }
+
+    .welcome h1 {
+        font-size: 4.5rem;
+    }
+
+    .welcome button {
+        width: 40rem;
+        height: 6rem;
+        font-size: 2.5rem;
+    }
+
+    .person-img img {
+        margin-left: 35%;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 620px) {
+    .welcome h1 {
+        padding: 0 0 4rem 0;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 820px) {
+    .welcome p {
+        padding-top: 8rem;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 1200px) {
+    .welcome p {
+        padding-top: 12rem;
+    }
+
+    .welcome h1 {
+        padding-bottom: 6rem;
+    }
+}
+
+@media (orientation: landscape) {
+    .welcome {
+        width: 50%;
+        height: 100vh;
+        float: left;
+    }
+
+    .person-img {
+        width: 50%;
+        height: 100vh;
+    }
+
+    .person-img img {
+        margin: 0;
+        padding: 2rem 0 0 0;
+    }
 }
