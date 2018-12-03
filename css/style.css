@@ -258,3 +258,40 @@ header {
         color: #111;
     }
 }
+
+/* SECTION.FEATURES */
+
+.features {
+    max-width: 1600px;
+    padding: 5%;
+    margin: 3rem auto 0 auto;
+    text-align: center;
+}
+
+.features h1 {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.feature img {
+    width: 26rem;
+    height: 16rem;
+    margin: 2.5rem 0 2.5rem 0;
+}
+
+.feature h2 {
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.feature p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 1.5rem;
+}
