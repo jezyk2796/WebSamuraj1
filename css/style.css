@@ -279,7 +279,7 @@ header {
 .feature img {
     width: 26rem;
     height: 16rem;
-    margin: 2.5rem 0 2.5rem 0;
+    margin: 3rem 0 0 0;
 }
 
 .feature h2 {
@@ -293,5 +293,98 @@ header {
     font-family: 'Saira', sans-serif;
     font-weight: 300;
     font-size: 1.4rem;
-    margin: 1.5rem;
+    margin: 1.5rem 1rem 0 1rem;
+}
+
+@media (min-width: 360px) {
+    .features h1 {
+        font-size: 2.8rem;
+    }
+
+    .feature img {
+        width: 28rem;
+        height: 17rem;
+    }
+
+    .feature h2 {
+        font-size: 2.4rem;
+    }
+
+    .feature p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .features h1 {
+        font-size: 3.5rem;
+    }
+
+    .feature img {
+        width: 40rem;
+        height: 24rem;
+        margin: 4rem 0 0 0;
+    }
+
+    .feature h2 {
+        font-size: 2.8rem;
+    }
+
+    .feature p {
+        font-size: 2rem;
+        margin: 2.5rem 1rem 0 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .feature {
+        width: 33.333%;
+        float: left;
+    }
+
+    .feature img {
+        width: 26rem;
+        height: 15rem;
+        margin: 5rem 0 3rem 0;
+    }
+
+    .feature h2 {
+        font-size: 2.2rem;
+    }
+
+    .feature p {
+        font-size: 1.4rem;
+        margin: 2.5rem 1rem 0 1rem;
+    }
+
+    .feature:nth-of-type(1) {
+        padding-right: 1.5rem;
+    }
+
+    .feature:nth-of-type(2) {
+        padding: 0 1.5rem;
+    }
+
+    .feature:nth-of-type(3) {
+        padding-left: 1.5rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .features h1 {
+        font-size: 6rem;
+    }
+
+    .feature img {
+        width: 38rem;
+        height: 22rem;
+    }
+
+    .feature h2 {
+        font-size: 3.5rem;
+    }
+
+    .feature p {
+        font-size: 2rem;
+    }
 }
