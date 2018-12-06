@@ -635,3 +635,51 @@ header {
     position: absolute;
     bottom: 20%
 }
+
+@media (min-width: 533px) {
+    .item {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .item {
+        height: 42vh;
+        background-size: 100%;
+        transition: .7s;
+    }
+
+    .hobby h3 {
+        font-size: 5rem;
+        padding: 5% 5%;
+    }
+
+    .item p {
+        height: 100%;
+        bottom: 0;
+        line-height: 42vh;
+        font-size: 3.2rem;
+        opacity: 0;
+        transition: .7s;
+    }
+
+    .item:hover {
+        background-size: 130%;
+    }
+
+    .item:hover p {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1600px) {
+    .item {
+        height: 50vh;
+    }
+
+    .item p {
+        line-height: 50vh;
+        font-size: 3.6rem;
+    }
+}
