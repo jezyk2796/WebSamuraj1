@@ -844,3 +844,17 @@ header {
         cursor: pointer;
     }
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #29a9df;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 2rem;
+}
